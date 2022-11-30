@@ -1,0 +1,42 @@
+export const ColorDefault = {
+  primary: 'rgb(0, 122, 255)',
+  white: 'rgb(255,255,255)',
+  black: 'rgb(0,0,0)',
+  background: 'rgb(242, 242, 242)',
+  card: 'rgb(255, 255, 255)',
+  text: 'rgb(28, 28, 30)',
+  border: 'rgb(31, 28, 28)',
+  notification: 'rgb(255, 59, 48)',
+  error: 'rgb(255, 59, 48)',
+  text_menu: 'rgb(0.07, 0.1, 0.15)',
+    text_time: 'rgb(0.36, 0.44, 0.55)',
+  info: '#ffd700',
+  btnSign : '#2969FF',
+  link : '#2969FF',
+  text_gray : '#94A3B8',
+  border : '#E9F0FF',
+  borderOtp : '#EAEFF3',
+  borderLine : '#F7F7F9',
+  red : '#DD0000',
+  red_blur : '#FFEBEB',
+  purple : '#5D5FEF',
+  otpInfo: '#00A37C',
+
+};
+export const ColorDark = {
+  primary: 'rgb(10, 132, 255)',
+  background: 'rgb(1, 1, 1)',
+  card: 'rgb(18, 18, 18)',
+  text: 'rgb(229, 229, 231)',
+  border: 'rgb(39, 39, 41)',
+  notification: 'rgb(255, 69, 58)',
+  error: 'rgb(255, 59, 48)',
+    text_menu: 'rgb(0.07, 0.1, 0.15)',
+    info: '#ffd700',
+  btnSign : '#2969FF',
+  link : '#2969FF',
+  text_gray : '#94A3B8',
+    border : '#E9F0FF',
+
+
+};

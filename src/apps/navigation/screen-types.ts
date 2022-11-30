@@ -1,0 +1,54 @@
+export enum APP_SCREEN {
+  UN_AUTHORIZE = 'UN_AUTHORIZE',
+  SPLASH = 'SPLASH',
+  LOGIN = 'LOGIN',
+  REGISTER = 'REGISTER',
+  FORGOT_PASSWORD = 'FORGOT_PASSWORD',
+  CHANGE_PASSWORD_1 = 'CHANGE_PASSWORD_1',
+  CHANGE_PASSWORD_2 = 'CHANGE_PASSWORD_2',
+  CHANGE_PASSWORD_3 = 'CHANGE_PASSWORD_3',
+  CHANGE_PASSWORD_4 = 'CHANGE_PASSWORD_4',
+
+  RESET_PASSWORD_2 = 'RESET_PASSWORD_2',
+  RESET_PASSWORD_3 = 'RESET_PASSWORD_3',
+  RESET_PASSWORD_4 = 'RESET_PASSWORD_4',
+
+  VERIFY_OTP = 'VERIFY_OTP',
+
+
+  WORKSITE = 'WORKSITE',
+  HISTORY = 'HISTORY',
+  PERFORMANCE = 'PERFORMANCE',
+  PROFILE = 'PROFILE',
+
+  AUTHORIZE = 'AUTHORIZE',
+  HOME = 'HOME',
+  INFOR = 'INFOR',
+  WORK_PLACE = 'WORK_PLACE',
+  PARTNER = 'PARTNER',
+  TIME_TO_WORK = 'TIME_TO_WORK',
+  WORK_DETAIL = 'WORK_DETAIL',
+  WORK_DETAIL_SUPPLIES = 'WORK_DETAIL_SUPPLIES',
+}
+
+export type UnAuthorizeParamsList = {
+  [APP_SCREEN.LOGIN]: undefined;
+  [APP_SCREEN.REGISTER]: undefined;
+  [APP_SCREEN.SPLASH]: undefined;
+};
+export type AuthorizeParamsList = {
+  [APP_SCREEN.HOME]: undefined;
+};
+export type RootStackParamList = {
+  [APP_SCREEN.UN_AUTHORIZE]: undefined;
+  [APP_SCREEN.AUTHORIZE]: undefined;
+} & UnAuthorizeParamsList &
+  AuthorizeParamsList;
+
+
+export type BottomTabNavigatorParamList = {
+    [APP_SCREEN.WORKSITE]: undefined;
+    [APP_SCREEN.HISTORY]: undefined;
+    [APP_SCREEN.PERFORMANCE]: undefined;
+    [APP_SCREEN.PROFILE]: undefined;
+}
